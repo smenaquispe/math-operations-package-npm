@@ -12,6 +12,6 @@
         "noEmit": true,
         "outDir": "dist"
     },
-    "include": ["src"],
+    "include": ["src", "__test__"],
     "exclude": ["node_modules"]
 }
