@@ -1,12 +1,8 @@
-import SumOperation from "./operations/SumOperation";
-import SubstractionOperation from "./operations/SubstractionOperation";
+import DivisionOperation from "./operations/DivisionOperation";
 
 function makeSum() {
-    let sum = new SumOperation();
-    console.log(sum.run(4,3,1))
-
-    let sub = new SubstractionOperation();
-    console.log(sub.run(5,4,3))
+    let sum = new DivisionOperation();
+    console.log("result", sum.run(10,5,0))
 }
 
 makeSum()
