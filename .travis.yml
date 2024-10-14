@@ -19,16 +19,6 @@ script:
   - npm run test
   - npm run build
 
-# Run jobs in parallel
-jobs:
-  include:
-    - stage: lint
-      node_js: "16"
-      script: npm run lint
-
-    - stage: coverage
-      node_js: "16"
-      script: npm run test:coverage
 # Deploy to npm
 deploy:
   provider: npm
